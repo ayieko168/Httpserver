@@ -2,10 +2,9 @@
 
 # Form implementation generated from reading ui file 'C:/Users/ayieko/Projects And  Research/PycharmProjects/HttpServer/GUI/startupDialog.ui'
 #
-# Created by: PyQt5 UI code generator 5.13.0
+# Created by: PyQt5 UI code generator 5.12.1
 #
 # WARNING! All changes made in this file will be lost!
-
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -42,10 +41,10 @@ class Ui_Form(object):
         self.SDPasswordEntry.setEchoMode(QtWidgets.QLineEdit.Normal)
         self.SDPasswordEntry.setObjectName("SDPasswordEntry")
         self.SDStartButton = QtWidgets.QPushButton(Form)
-        self.SDStartButton.setGeometry(QtCore.QRect(60, 190, 75, 23))
+        self.SDStartButton.setGeometry(QtCore.QRect(60, 182, 75, 31))
         self.SDStartButton.setObjectName("SDStartButton")
         self.SDCancelButton = QtWidgets.QPushButton(Form)
-        self.SDCancelButton.setGeometry(QtCore.QRect(180, 190, 75, 23))
+        self.SDCancelButton.setGeometry(QtCore.QRect(180, 182, 75, 31))
         self.SDCancelButton.setObjectName("SDCancelButton")
 
         self.retranslateUi(Form)
@@ -53,7 +52,7 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "Start Up Connection SetUp"))
         self.SDTextEdit.setPlainText(_translate("Form", "Please Enter The Administrative Details Of The Server You Want To Start."))
         self.SDHostEntry.setWhatsThis(_translate("Form", "Hostname or IP address. To refer to this computer, enter localhost(Default)"))
         self.SDHostEntry.setText(_translate("Form", "localhost"))
@@ -67,3 +66,5 @@ class Ui_Form(object):
         self.SDStartButton.setWhatsThis(_translate("Form", "Start the server with the above settings"))
         self.SDStartButton.setText(_translate("Form", "START!"))
         self.SDCancelButton.setText(_translate("Form", "Cancel"))
+
+

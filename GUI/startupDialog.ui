@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Start Up Connection SetUp</string>
   </property>
   <widget class="QPlainTextEdit" name="SDTextEdit">
    <property name="geometry">
@@ -135,9 +135,9 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>190</y>
+     <y>182</y>
      <width>75</width>
-     <height>23</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="whatsThis">
@@ -151,9 +151,9 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>190</y>
+     <y>182</y>
      <width>75</width>
-     <height>23</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">
